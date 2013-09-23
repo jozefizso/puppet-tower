@@ -2,4 +2,9 @@
 script: "./script/cibuild"
 gemfile: "this/does/not/exist"
 rvm:
-  - "1.8.7"
+  - 1.8.7
+  - 1.9.3
+env:
+  global:
+    # encrypted GITHUB_API_TOKEN for librarian-puppet
+    secure: "qSw9HerRSf91IfGUI5ZwewuarnOZmA3JAbrF9zfBbj7GaNB108Z1pCn1yI1tI5L2wShVc7kAmtiPmmlixXx9q+JAvEaeRbQmEOXfo0KNNcWc/rGMtALUYd6o9pVQq7U907iACfZKtbcr/u2/5b3Cf+bddMXG0+kCVHsjYAxeqcI="
