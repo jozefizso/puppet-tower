@@ -14,9 +14,13 @@ include tower
 
 ## Required Puppet Modules
 
-* `boxen`
+* [boxen] >= 2.1.0
+
 
 ## Development
 
 Write code. Run `script/cibuild` to test it. Check the `script`
 directory for other useful tools.
+
+
+[boxen]: https://github.com/boxen/puppet-boxen
