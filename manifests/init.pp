@@ -7,6 +7,6 @@ class tower {
   package { 'Tower':
     source   => 'http://www.git-tower.com/download',
     provider => 'compressed_app',
-    flavor => 'zip'
+    flavor   => 'zip'
   }
 }
